@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:qr_code/pages/create_course.dart';
 import 'package:qr_code/pages/view_class.dart';
-import 'package:qr_code_scanner/qr_code_scanner.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -12,9 +11,6 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  final GlobalKey qrKey = GlobalKey(debugLabel: "QR");
-  Barcode? result;
-  QRViewController? controller;
 
   @override
   Widget build(BuildContext context) {
