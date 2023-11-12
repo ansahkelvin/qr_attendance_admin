@@ -37,7 +37,7 @@ class _ViewAttendanceState extends State<ViewAttendance> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Center(
-                child: QrImage(
+                child: QrImageView(
                   data: widget.model.key,
                   version: QrVersions.auto,
                   size: 200.0,
