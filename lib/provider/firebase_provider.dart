@@ -79,7 +79,7 @@ class FirebaseProvider with ChangeNotifier {
       "roomNumber": roomNumber,
       "secretKey": secretKey,
       "courseId": courseId,
-      "userId": currentUser!.uid,
+      "userId": FirebaseAuth.instance.currentUser!.uid,
       "date": date,
       "time": time,
       "courseTitle": courseTitle,

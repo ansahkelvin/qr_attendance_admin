@@ -44,40 +44,38 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBDdGv-SGIlpc4KzaKoJAIdtgcEWGrt1Hk',
-    appId: '1:149872191226:web:45644b8a0cffbc1a088b43',
-    messagingSenderId: '149872191226',
-    projectId: 'gctu-7fb3a',
-    authDomain: 'gctu-7fb3a.firebaseapp.com',
-    storageBucket: 'gctu-7fb3a.appspot.com',
-    measurementId: 'G-BJQFMHCZXD',
+    apiKey: 'AIzaSyBCRyrgYVvfPqfZ8xYlZKIdQHbrUXCGzIo',
+    appId: '1:1092045970347:web:e8d71fcbfe63024777d0ee',
+    messagingSenderId: '1092045970347',
+    projectId: 'attendance-36f66',
+    authDomain: 'attendance-36f66.firebaseapp.com',
+    storageBucket: 'attendance-36f66.appspot.com',
+    measurementId: 'G-1NJ7HK7E86',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDlJvKWwEDaiH-GRc9rDgWBV2keNON4Q5A',
-    appId: '1:149872191226:android:378d5e85c308eea7088b43',
-    messagingSenderId: '149872191226',
-    projectId: 'gctu-7fb3a',
-    storageBucket: 'gctu-7fb3a.appspot.com',
+    apiKey: 'AIzaSyCgAALT1gmJoIs7V4gRHfKzqcGo3AxGjpM',
+    appId: '1:1092045970347:android:04c198cd0b38a90177d0ee',
+    messagingSenderId: '1092045970347',
+    projectId: 'attendance-36f66',
+    storageBucket: 'attendance-36f66.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyC7bvPv2RcGZF0T0hLt4TP5QYmZLiuutno',
-    appId: '1:149872191226:ios:3f4d1f3274927c9d088b43',
-    messagingSenderId: '149872191226',
-    projectId: 'gctu-7fb3a',
-    storageBucket: 'gctu-7fb3a.appspot.com',
-    iosClientId: '149872191226-q4jni9pro1u1vsah24go2b8vbsqf9hro.apps.googleusercontent.com',
+    apiKey: 'AIzaSyBoPuW-9kL_Ms02nfO-zfQL4Z6xYRVQbaU',
+    appId: '1:1092045970347:ios:58cd2ea4865766d377d0ee',
+    messagingSenderId: '1092045970347',
+    projectId: 'attendance-36f66',
+    storageBucket: 'attendance-36f66.appspot.com',
     iosBundleId: 'com.example.qrCode',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyC7bvPv2RcGZF0T0hLt4TP5QYmZLiuutno',
-    appId: '1:149872191226:ios:3f4d1f3274927c9d088b43',
-    messagingSenderId: '149872191226',
-    projectId: 'gctu-7fb3a',
-    storageBucket: 'gctu-7fb3a.appspot.com',
-    iosClientId: '149872191226-q4jni9pro1u1vsah24go2b8vbsqf9hro.apps.googleusercontent.com',
+    apiKey: 'AIzaSyBoPuW-9kL_Ms02nfO-zfQL4Z6xYRVQbaU',
+    appId: '1:1092045970347:ios:58cd2ea4865766d377d0ee',
+    messagingSenderId: '1092045970347',
+    projectId: 'attendance-36f66',
+    storageBucket: 'attendance-36f66.appspot.com',
     iosBundleId: 'com.example.qrCode',
   );
 }
